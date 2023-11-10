@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "BinanceWatcherFunction": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 31009,
+      "useSSL": false
+    }
+  }
+}

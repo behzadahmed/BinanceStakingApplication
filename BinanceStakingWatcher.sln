@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBotFunction", "MessageBotFunction\MessageBotFunction.csproj", "{2212D2AF-B62C-490D-AEE0-1E291F03AD1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinanceWatcherFunction", "BinanceWatcherFunction\BinanceWatcherFunction.csproj", "{28E1C361-A58B-4B2F-BB81-6FDE12ED0D74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StakingConfig.Api", "StakingConfig.Api\StakingConfig.Api.csproj", "{94585F44-A71B-4EAC-B7F1-E3FD697707E9}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "StakingConfig.web", "StakingConfig.Web\StakingConfig.web.esproj", "{AE5FC997-317F-4850-8C39-81C39F2A8E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceWatcherFunction.Tests", "BinanceWatcherFunction.Tests\BinanceWatcherFunction.Tests.csproj", "{5948347F-3DB7-4FC1-B883-FE9438B8A9C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2212D2AF-B62C-490D-AEE0-1E291F03AD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2212D2AF-B62C-490D-AEE0-1E291F03AD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2212D2AF-B62C-490D-AEE0-1E291F03AD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2212D2AF-B62C-490D-AEE0-1E291F03AD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E1C361-A58B-4B2F-BB81-6FDE12ED0D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E1C361-A58B-4B2F-BB81-6FDE12ED0D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E1C361-A58B-4B2F-BB81-6FDE12ED0D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E1C361-A58B-4B2F-BB81-6FDE12ED0D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94585F44-A71B-4EAC-B7F1-E3FD697707E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94585F44-A71B-4EAC-B7F1-E3FD697707E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94585F44-A71B-4EAC-B7F1-E3FD697707E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94585F44-A71B-4EAC-B7F1-E3FD697707E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5FC997-317F-4850-8C39-81C39F2A8E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5FC997-317F-4850-8C39-81C39F2A8E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5FC997-317F-4850-8C39-81C39F2A8E1A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AE5FC997-317F-4850-8C39-81C39F2A8E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5FC997-317F-4850-8C39-81C39F2A8E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5FC997-317F-4850-8C39-81C39F2A8E1A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5948347F-3DB7-4FC1-B883-FE9438B8A9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5948347F-3DB7-4FC1-B883-FE9438B8A9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5948347F-3DB7-4FC1-B883-FE9438B8A9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5948347F-3DB7-4FC1-B883-FE9438B8A9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B6C4E6E-990D-4A86-9803-B1F060DC17E9}
+	EndGlobalSection
+EndGlobal
