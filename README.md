@@ -1,6 +1,6 @@
-#Binance Staking Watcher
+# Binance Staking Watcher
 
-#Overview
+# Overview
 The Binance Staking Watcher is a microservices application that monitors cryptocurrency staking options on binance and sends a message to a queue, which then forwards a message to a chat Service. 
 The purpose is to know when a staking option is availble as soon as possible. The application consists of several services:
 
